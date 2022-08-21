@@ -309,6 +309,50 @@ acenter {
 
 /* Fonts */
 
+.light {
+	font-weight: 300;
+}
+
+.normal {
+	font-weight: 400;
+}
+
+.medium {
+	font-weight: 500;
+}
+
+.semibold {
+	font-weight: 600;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+.lowercase {
+	text-transform: lowercase;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.capitalize {
+	text-transform: capitalize;
+}
+
+.list-none {
+	list-style: none;
+}
+
+.list-disc {
+	list-style: disc;
+}
+
+.list-decimal {
+	list-style: decimal;
+}
+
 h1, h2, h3, h4, h5, h6 {
 	margin-top: 0;
 	color: var(--primary);
